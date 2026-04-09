@@ -42,6 +42,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
   {
@@ -844,6 +853,32 @@
     // Duplicate for seamless loop
     document.getElementById('marqueeRow1').innerHTML = row1Html + row1Html;
     document.getElementById('marqueeRow2').innerHTML = row2Html + row2Html;
+
+    // --- WhatsApp click tracking (GA4) ---
+    document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+      link.addEventListener('click', function() {
+        const villa = this.closest('.villa-card')?.querySelector('.villa-name')?.textContent
+                   || this.closest('.modal')?.querySelector('.modal-villa-name')?.textContent
+                   || null;
+        const section = this.closest('.hero') ? 'hero'
+                     : this.closest('.villa-card') ? 'villa_card'
+                     : this.closest('.modal') ? 'villa_modal'
+                     : this.closest('.cta-final') ? 'cta_final'
+                     : this.closest('.navbar') ? 'navbar'
+                     : this.classList.contains('whatsapp-float') ? 'floating_button'
+                     : 'other';
+
+        if (typeof gtag === 'function') {
+          gtag('event', 'whatsapp_click', {
+            event_category: 'contact',
+            event_label: villa || section,
+            villa_name: villa || '(general)',
+            click_section: section,
+            page_location: window.location.href
+          });
+        }
+      });
+    });
 
     // --- Mobile hamburger menu ---
     const burger = document.getElementById('navBurger');
