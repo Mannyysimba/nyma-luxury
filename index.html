@@ -981,6 +981,14 @@
       });
     });
 
+    // --- Force scroll to top on page load ---
+    if (!window.location.hash) {
+      window.scrollTo(0, 0);
+    }
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+
     // --- Mobile hamburger menu ---
     const burger = document.getElementById('navBurger');
     const navLinksEl = document.getElementById('navLinks');
