@@ -10,7 +10,6 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://nymaluxury.com/" />
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://nymaluxury.com/" />
     <xhtml:link rel="alternate" hreflang="fr-MA" href="https://nymaluxury.com/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nymaluxury.com/#english" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nymaluxury.com/" />
     <image:image>
       <image:loc>https://nymaluxury.com/Image%20arriere%20plan%20hero%20section.jpg</image:loc>
@@ -69,5 +68,75 @@
       <image:loc>https://nymaluxury.com/Villa%20Hami.jpeg</image:loc>
       <image:title>Golf Argan Resort Marrakech - Louer une villa sur le domaine</image:title>
     </image:image>
+  </url>
+  <url>
+    <loc>https://nymaluxury.com/blog/louer-villa-marrakech-guide-complet.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image><image:loc>https://nymaluxury.com/Villa%20Jonathan%201.jpeg</image:loc><image:title>Louer une villa à Marrakech - guide complet</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nymaluxury.com/blog/conciergerie-marrakech-services-sur-mesure.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image><image:loc>https://nymaluxury.com/Villa%20Amrabt%201.jpeg</image:loc><image:title>Conciergerie Marrakech - services sur mesure Nyma Luxury</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nymaluxury.com/blog/villa-piscine-chauffee-marrakech.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image><image:loc>https://nymaluxury.com/Villa%20Isis%201.jpeg</image:loc><image:title>Villa avec piscine chauffée à Marrakech</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nymaluxury.com/blog/evjf-marrakech-villa-privee.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image><image:loc>https://nymaluxury.com/Villa%20Lili%201.jpeg</image:loc><image:title>EVJF à Marrakech en villa privée</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nymaluxury.com/blog/chef-prive-marrakech-gastronomie-domicile.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image><image:loc>https://nymaluxury.com/Villa%20Freddy.jpeg</image:loc><image:title>Chef privé à Marrakech à domicile dans votre villa</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nymaluxury.com/blog/marrakech-hiver-meilleure-saison-villa.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image><image:loc>https://nymaluxury.com/Villa%20Hami.jpeg</image:loc><image:title>Marrakech en hiver, louer une villa</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nymaluxury.com/blog/activites-marrakech-villa.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image><image:loc>https://nymaluxury.com/Villa%20Karim%201.jpeg</image:loc><image:title>Activités à Marrakech depuis votre villa</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nymaluxury.com/blog/transfert-aeroport-marrakech-arrivee-sereine.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image><image:loc>https://nymaluxury.com/Villa%20Baicha%201.jpeg</image:loc><image:title>Transfert aéroport à Marrakech vers villa de luxe</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nymaluxury.com/blog/villa-vs-hotel-marrakech-lequel-choisir.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image><image:loc>https://nymaluxury.com/Villa%20Man%C3%A8s%201.jpeg</image:loc><image:title>Villa de luxe vs hôtel à Marrakech</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nymaluxury.com/blog/anniversaire-marrakech-villa-privee.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image><image:loc>https://nymaluxury.com/Villa%20MANYS%20.jpeg</image:loc><image:title>Anniversaire à Marrakech en villa privée</image:title></image:image>
   </url>
 </urlset>
