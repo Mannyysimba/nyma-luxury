@@ -3,12 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Nyma Luxury | Location Villas de Luxe à Marrakech - Conciergerie Privée</title>
-  <meta name="description" content="Nyma Luxury : location de 11 villas privées de luxe à Marrakech, Golf Argan Resort. Piscine chauffée, hammam, chef privé. Conciergerie sur mesure 7j/7. Réservez sur WhatsApp.">
-  <meta name="keywords" content="villa luxe Marrakech, location villa Marrakech, villa privée Marrakech, conciergerie Marrakech, Golf Argan Resort, villa piscine Marrakech, séjour luxe Marrakech, villa avec hammam Marrakech, chef privé Marrakech, transfert aéroport Marrakech, EVJF Marrakech, villa groupe Marrakech">
+  <title>Villa Marrakech - Louer Villa de Luxe & Conciergerie Marrakech | Nyma Luxury</title>
+  <meta name="description" content="Louer une villa de luxe à Marrakech avec piscine chauffée, hammam et conciergerie privée 7j/7. 11 villas privées au Golf Argan Resort. Devis rapide sur WhatsApp.">
+  <meta name="keywords" content="villa marrakech, louer villa marrakech, location villa marrakech, conciergerie marrakech, villa luxe marrakech, villa privée marrakech, villa piscine marrakech, villa avec hammam marrakech, villa groupe marrakech, villa Golf Argan Resort, chef privé marrakech, transfert aéroport marrakech, EVJF Marrakech, EVG Marrakech, luxury villa marrakech, villa rental marrakech, rent villa marrakech, marrakech concierge service, private villa marrakech, holiday villa marrakech">
   <meta name="author" content="Nyma Luxury">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="geo.region" content="MA-07">
+  <meta name="geo.placename" content="Marrakech">
+  <meta name="geo.position" content="31.6295;-7.9811">
+  <meta name="ICBM" content="31.6295, -7.9811">
   <link rel="alternate" hreflang="fr" href="https://nymaluxury.com/">
+  <link rel="alternate" hreflang="fr-FR" href="https://nymaluxury.com/">
+  <link rel="alternate" hreflang="fr-MA" href="https://nymaluxury.com/">
+  <link rel="alternate" hreflang="en" href="https://nymaluxury.com/#english">
   <link rel="alternate" hreflang="x-default" href="https://nymaluxury.com/">
   <meta name="theme-color" content="#A0674B">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,22 +26,25 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Nyma Luxury | Villas de Luxe à Marrakech">
-  <meta property="og:description" content="11 villas privées d'exception au Golf Argan Resort. Conciergerie sur mesure, chef privé, transfert aéroport. Réservez votre séjour de rêve à Marrakech.">
+  <meta property="og:title" content="Villa Marrakech - Louer une Villa de Luxe | Nyma Luxury Conciergerie">
+  <meta property="og:description" content="Louer une villa de luxe à Marrakech : 11 villas privées au Golf Argan Resort avec piscine chauffée, hammam, chef privé. Conciergerie sur mesure 7j/7.">
   <meta property="og:url" content="https://nymaluxury.com/">
   <meta property="og:site_name" content="Nyma Luxury">
   <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="en_GB">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="ar_MA">
   <meta property="og:image" content="https://nymaluxury.com/Image%20arriere%20plan%20hero%20section.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Villa de luxe avec piscine à Marrakech - Nyma Luxury">
+  <meta property="og:image:alt" content="Louer une villa de luxe à Marrakech avec piscine - Nyma Luxury">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Nyma Luxury | Villas de Luxe à Marrakech">
-  <meta name="twitter:description" content="11 villas privées d'exception au Golf Argan Resort. Conciergerie sur mesure 7j/7.">
+  <meta name="twitter:title" content="Villa Marrakech - Louer une Villa de Luxe | Nyma Luxury">
+  <meta name="twitter:description" content="Louer une villa de luxe à Marrakech avec conciergerie privée 7j/7. 11 villas au Golf Argan Resort — piscine chauffée, hammam, chef privé.">
   <meta name="twitter:image" content="https://nymaluxury.com/Image%20arriere%20plan%20hero%20section.jpg">
-  <meta name="twitter:image:alt" content="Villa de luxe avec piscine à Marrakech - Nyma Luxury">
+  <meta name="twitter:image:alt" content="Villa de luxe à Marrakech avec piscine - Nyma Luxury">
 
   <!-- Preload critical assets -->
   <link rel="preload" href="Image arriere plan hero section.jpg" as="image">
@@ -47,13 +57,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
-  <!-- Google Analytics 4 -->
+  <!-- Google Analytics 4 + Google Ads (remplacer G-XXXXXXXXXX et AW-XXXXXXXXXX par tes vrais IDs) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-XXXXXXXXXX');
+    // Google Ads - remplacer AW-XXXXXXXXXX par ton ID Google Ads
+    gtag('config', 'AW-XXXXXXXXXX');
+
+    // Conversion WhatsApp : remplacer AW-XXXXXXXXXX/abcDEF123 par ton label de conversion
+    function nymaTrackWhatsApp(source){
+      try {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-XXXXXXXXXX/abcDEF123',
+          'event_category': 'contact',
+          'event_label': source || 'whatsapp_click',
+          'value': 1.0,
+          'currency': 'EUR'
+        });
+        gtag('event', 'whatsapp_click', {
+          'event_category': 'engagement',
+          'event_label': source || 'whatsapp_click'
+        });
+      } catch(e) {}
+      return true;
+    }
+    document.addEventListener('DOMContentLoaded', function(){
+      document.querySelectorAll('a[href*="wa.me"]').forEach(function(a){
+        a.addEventListener('click', function(){
+          var src = a.getAttribute('data-source') || a.textContent.trim().slice(0,40) || 'whatsapp_click';
+          nymaTrackWhatsApp(src);
+        });
+      });
+    });
   </script>
 
   <!-- JSON-LD Structured Data -->
@@ -62,8 +100,9 @@
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     "name": "Nyma Luxury",
-    "alternateName": "Nyma Luxury Conciergerie",
-    "description": "Location de villas privées de luxe à Marrakech avec conciergerie sur mesure au Golf Argan Resort. 11 villas avec piscine chauffée, hammam, chef privé.",
+    "alternateName": ["Nyma Luxury Conciergerie", "Nyma Luxury Marrakech", "Nyma Villa Marrakech"],
+    "description": "Louer une villa de luxe à Marrakech avec Nyma Luxury : 11 villas privées au Golf Argan Resort, conciergerie sur mesure 7j/7, piscine chauffée, hammam, chef privé, transfert aéroport. Luxury villa rental in Marrakech with private concierge service.",
+    "slogan": "L'art de vivre à Marrakech — Louer une villa de luxe avec conciergerie privée",
     "url": "https://nymaluxury.com",
     "telephone": "+33769114397",
     "email": "contact@nymaluxury.com",
@@ -214,6 +253,67 @@
     ]
   }
   </script>
+
+  <!-- BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://nymaluxury.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Location Villa Marrakech", "item": "https://nymaluxury.com/#villas"},
+      {"@type": "ListItem", "position": 3, "name": "Conciergerie Marrakech", "item": "https://nymaluxury.com/#services"}
+    ]
+  }
+  </script>
+
+  <!-- Service : Conciergerie Marrakech -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Conciergerie de luxe à Marrakech",
+    "name": "Conciergerie Marrakech - Nyma Luxury",
+    "description": "Service de conciergerie privée à Marrakech : location villa de luxe, transfert aéroport, chef privé à domicile, activités et excursions sur mesure.",
+    "provider": {"@type": "LocalBusiness", "name": "Nyma Luxury", "url": "https://nymaluxury.com"},
+    "areaServed": {"@type": "City", "name": "Marrakech"},
+    "availableLanguage": ["fr","en","ar"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Services de conciergerie Marrakech",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Location villa de luxe à Marrakech"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Transfert aéroport Marrakech-Ménara"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Chef privé à domicile à Marrakech"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Organisation d'activités & excursions à Marrakech"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Organisation EVJF / EVG à Marrakech"}}
+      ]
+    }
+  }
+  </script>
+
+  <!-- ItemList des villas (location villa Marrakech) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Villas de luxe à louer à Marrakech",
+    "description": "Sélection de 11 villas privées à louer à Marrakech au Golf Argan Resort.",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "item": {"@type": "VacationRental", "name": "Villa Amrabt", "description": "Villa de luxe 10 personnes à Marrakech, 5 suites, piscine chauffée, jacuzzi, hammam.", "numberOfRooms": 5, "occupancy": {"@type": "QuantitativeValue", "maxValue": 10}, "address": {"@type": "PostalAddress", "addressLocality": "Marrakech", "addressCountry": "MA"}, "image": "https://nymaluxury.com/Villa%20Amrabt%201.jpeg"}},
+      {"@type": "ListItem", "position": 2, "item": {"@type": "VacationRental", "name": "Villa Baicha", "description": "Villa de luxe 8 personnes à Marrakech, 4 suites, piscine chauffée.", "numberOfRooms": 4, "occupancy": {"@type": "QuantitativeValue", "maxValue": 8}, "address": {"@type": "PostalAddress", "addressLocality": "Marrakech", "addressCountry": "MA"}, "image": "https://nymaluxury.com/Villa%20Baicha%201.jpeg"}},
+      {"@type": "ListItem", "position": 3, "item": {"@type": "VacationRental", "name": "Villa Freddy", "description": "Villa de luxe à Marrakech, 4 suites, piscine chauffée, hammam beldi, table de massage.", "numberOfRooms": 4, "occupancy": {"@type": "QuantitativeValue", "maxValue": 8}, "address": {"@type": "PostalAddress", "addressLocality": "Marrakech", "addressCountry": "MA"}, "image": "https://nymaluxury.com/Villa%20Freddy.jpeg"}},
+      {"@type": "ListItem", "position": 4, "item": {"@type": "VacationRental", "name": "Villa Hami", "description": "Villa de luxe à Marrakech avec vue golf et lac, 4 suites.", "numberOfRooms": 4, "occupancy": {"@type": "QuantitativeValue", "maxValue": 8}, "address": {"@type": "PostalAddress", "addressLocality": "Marrakech", "addressCountry": "MA"}, "image": "https://nymaluxury.com/Villa%20Hami.jpeg"}},
+      {"@type": "ListItem", "position": 5, "item": {"@type": "VacationRental", "name": "Villa Isis", "description": "Villa de luxe à Marrakech, 4 suites, piscine chauffée, salle de sport, jacuzzi, home cinéma, hammam.", "numberOfRooms": 4, "occupancy": {"@type": "QuantitativeValue", "maxValue": 8}, "address": {"@type": "PostalAddress", "addressLocality": "Marrakech", "addressCountry": "MA"}, "image": "https://nymaluxury.com/Villa%20Isis%201.jpeg"}},
+      {"@type": "ListItem", "position": 6, "item": {"@type": "VacationRental", "name": "Villa Jonathan", "description": "Grande villa de luxe à Marrakech, 6 suites, 12 personnes, piscine chauffée, hammam, home cinéma.", "numberOfRooms": 6, "occupancy": {"@type": "QuantitativeValue", "maxValue": 12}, "address": {"@type": "PostalAddress", "addressLocality": "Marrakech", "addressCountry": "MA"}, "image": "https://nymaluxury.com/Villa%20Jonathan%201.jpeg"}},
+      {"@type": "ListItem", "position": 7, "item": {"@type": "VacationRental", "name": "Villa Karim", "description": "Villa de luxe à Marrakech, 5 suites, piscine chauffée, home cinéma, salle de jeu enfants, hammam.", "numberOfRooms": 5, "occupancy": {"@type": "QuantitativeValue", "maxValue": 10}, "address": {"@type": "PostalAddress", "addressLocality": "Marrakech", "addressCountry": "MA"}, "image": "https://nymaluxury.com/Villa%20Karim%201.jpeg"}},
+      {"@type": "ListItem", "position": 8, "item": {"@type": "VacationRental", "name": "Villa Lili", "description": "Villa de luxe à Marrakech, 4 suites, piscine chauffée, hammam beldi, table de massage, home cinéma.", "numberOfRooms": 4, "occupancy": {"@type": "QuantitativeValue", "maxValue": 8}, "address": {"@type": "PostalAddress", "addressLocality": "Marrakech", "addressCountry": "MA"}, "image": "https://nymaluxury.com/Villa%20Lili%201.jpeg"}},
+      {"@type": "ListItem", "position": 9, "item": {"@type": "VacationRental", "name": "Villa Manès", "description": "Villa de luxe à Marrakech, 4 chambres, jardin privé, piscine chauffée.", "numberOfRooms": 4, "occupancy": {"@type": "QuantitativeValue", "maxValue": 8}, "address": {"@type": "PostalAddress", "addressLocality": "Marrakech", "addressCountry": "MA"}, "image": "https://nymaluxury.com/Villa%20Man%C3%A8s%201.jpeg"}},
+      {"@type": "ListItem", "position": 10, "item": {"@type": "VacationRental", "name": "Villa MANYS", "description": "Villa de luxe à Marrakech, 4 chambres, grand jardin, piscine, home cinéma, hammam beldi.", "numberOfRooms": 4, "occupancy": {"@type": "QuantitativeValue", "maxValue": 8}, "address": {"@type": "PostalAddress", "addressLocality": "Marrakech", "addressCountry": "MA"}, "image": "https://nymaluxury.com/Villa%20MANYS%20.jpeg"}},
+      {"@type": "ListItem", "position": 11, "item": {"@type": "VacationRental", "name": "Villa PP", "description": "Villa de luxe à Marrakech (Route de Fès), 4 suites, terrain basket, padel, piscine chauffée, salle de sport.", "numberOfRooms": 4, "occupancy": {"@type": "QuantitativeValue", "maxValue": 8}, "address": {"@type": "PostalAddress", "addressLocality": "Marrakech", "addressCountry": "MA"}, "image": "https://nymaluxury.com/Villa%20PP%201.jpeg"}}
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -244,10 +344,11 @@
     <div class="hero-overlay"></div>
     <div class="hero-grain"></div>
     <div class="hero-content">
-      <span class="hero-eyebrow">Conciergerie de villas privees</span>
-      <img src="Logo nyma luxury blanc.png" alt="Nyma Luxury" class="hero-logo">
-      <h1>L'art de vivre<br><em>à Marrakech</em></h1>
-      <p>Villas privées d'exception au Golf Argan Resort.<br>Un service de conciergerie sur mesure pour un séjour inoubliable.</p>
+      <span class="hero-eyebrow">Louer une villa de luxe à Marrakech · Conciergerie privée</span>
+      <img src="Logo nyma luxury blanc.png" alt="Nyma Luxury - Conciergerie et location de villas à Marrakech" class="hero-logo">
+      <h1>Villa de luxe<br><em>à Marrakech</em></h1>
+      <p class="hero-tagline">L'art de vivre à Marrakech — villas privées avec piscine chauffée, hammam et chef privé.</p>
+      <p>11 villas privées d'exception à louer au Golf Argan Resort.<br>Conciergerie Marrakech sur mesure, 7j/7 — <span lang="en">luxury villa rental &amp; private concierge in Marrakech</span>.</p>
       <a href="https://wa.me/33769114397?text=Bonjour%2C%20je%20d%C3%A9couvre%20Nyma%20Luxury%20et%20j%27aimerais%20organiser%20un%20s%C3%A9jour%20%C3%A0%20Marrakech.%20Pouvez-vous%20me%20renseigner%20%3F" class="btn-hero" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         <span>Nous contacter sur WhatsApp</span>
@@ -261,12 +362,13 @@
   <!-- ========== À PROPOS ========== -->
   <section class="section about" id="about">
     <span class="section-line reveal"></span>
-    <h2 class="section-title reveal delay-1">Votre séjour, notre exigence</h2>
+    <h2 class="section-title reveal delay-1">Conciergerie à Marrakech · votre séjour, notre exigence</h2>
     <p class="about-text reveal delay-2">
+      Nyma Luxury est la conciergerie de référence pour louer une villa de luxe à Marrakech.
       Nous ne listons pas des villas, nous les sélectionnons une par une.
-      Chaque propriété est visitée, chaque détail vérifié. Du transfert aéroport
-      jusqu'à votre dernier soir, un interlocuteur unique vous accompagne
-      pour que votre seule préoccupation soit de profiter.
+      Chaque villa privée est visitée, chaque détail vérifié. Du transfert aéroport
+      Marrakech-Ménara jusqu'à votre dernier soir, un interlocuteur unique vous accompagne
+      pour que votre seule préoccupation soit de profiter de votre séjour à Marrakech.
     </p>
     <div class="about-stats">
       <div class="about-stat reveal delay-1">
@@ -296,14 +398,14 @@
   <!-- ========== NOS VILLAS ========== -->
   <section class="section villas" id="villas">
     <span class="section-line reveal"></span>
-    <h2 class="section-title reveal delay-1">Nos Villas</h2>
-    <p class="section-subtitle reveal delay-2">Des résidences privées d'exception, sélectionnées avec soin au coeur de Marrakech.</p>
+    <h2 class="section-title reveal delay-1">Nos Villas de Luxe à Marrakech</h2>
+    <p class="section-subtitle reveal delay-2">Louer une villa privée à Marrakech n'a jamais été aussi simple : 11 résidences d'exception au Golf Argan Resort, sélectionnées et visitées une à une.</p>
 
     <div class="villas-grid">
 
       <div class="villa-card reveal delay-1" onclick="openModal(0)">
         <div class="villa-card-img-wrap">
-          <img src="Villa Amrabt 1.jpeg" alt="Villa Amrabt" loading="lazy">
+          <img src="Villa Amrabt 1.jpeg" alt="Villa Amrabt - Villa de luxe à louer à Marrakech, piscine chauffée et vue golf" loading="lazy">
           <span class="villa-card-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 10 pers.</span>
           <span class="villa-card-gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Voir les photos</span>
         </div>
@@ -329,7 +431,7 @@
 
       <div class="villa-card reveal delay-2" onclick="openModal(1)">
         <div class="villa-card-img-wrap">
-          <img src="Villa Baicha 1.jpeg" alt="Villa Baicha" loading="lazy">
+          <img src="Villa Baicha 1.jpeg" alt="Villa Baicha - Location villa de luxe Marrakech au Golf Argan Resort" loading="lazy">
           <span class="villa-card-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 8 pers.</span>
           <span class="villa-card-gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Voir les photos</span>
         </div>
@@ -354,7 +456,7 @@
 
       <div class="villa-card reveal delay-3" onclick="openModal(2)">
         <div class="villa-card-img-wrap">
-          <img src="Villa Freddy.jpeg" alt="Villa Freddy" loading="lazy">
+          <img src="Villa Freddy.jpeg" alt="Villa Freddy - Louer villa Marrakech avec hammam beldi et piscine chauffée" loading="lazy">
           <span class="villa-card-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 8 pers.</span>
           <span class="villa-card-gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Voir les photos</span>
         </div>
@@ -380,7 +482,7 @@
 
       <div class="villa-card reveal delay-1" onclick="openModal(3)">
         <div class="villa-card-img-wrap">
-          <img src="Villa Hami.jpeg" alt="Villa Hami" loading="lazy">
+          <img src="Villa Hami.jpeg" alt="Villa Hami - Villa de luxe à Marrakech avec vue golf et lac" loading="lazy">
           <span class="villa-card-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 8 pers.</span>
           <span class="villa-card-gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Voir les photos</span>
         </div>
@@ -405,7 +507,7 @@
 
       <div class="villa-card reveal delay-2" onclick="openModal(4)">
         <div class="villa-card-img-wrap">
-          <img src="Villa Isis 1.jpeg" alt="Villa Isis" loading="lazy">
+          <img src="Villa Isis 1.jpeg" alt="Villa Isis - Villa privée Marrakech avec piscine chauffée, jacuzzi, home cinéma et hammam" loading="lazy">
           <span class="villa-card-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 8 pers.</span>
           <span class="villa-card-gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Voir les photos</span>
         </div>
@@ -431,7 +533,7 @@
 
       <div class="villa-card reveal delay-3" onclick="openModal(5)">
         <div class="villa-card-img-wrap">
-          <img src="Villa Jonathan 2.jpeg" alt="Villa Jonathan" loading="lazy">
+          <img src="Villa Jonathan 2.jpeg" alt="Villa Jonathan - Grande villa de luxe à Marrakech 12 personnes, 6 suites, piscine chauffée" loading="lazy">
           <span class="villa-card-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 12 pers.</span>
           <span class="villa-card-gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Voir les photos</span>
         </div>
@@ -457,7 +559,7 @@
 
       <div class="villa-card reveal delay-1" onclick="openModal(6)">
         <div class="villa-card-img-wrap">
-          <img src="Villa Karim 1.jpeg" alt="Villa Karim" loading="lazy">
+          <img src="Villa Karim 1.jpeg" alt="Villa Karim - Louer villa Marrakech familiale avec home cinéma et salle de jeux" loading="lazy">
           <span class="villa-card-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 10 pers.</span>
           <span class="villa-card-gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Voir les photos</span>
         </div>
@@ -483,7 +585,7 @@
 
       <div class="villa-card reveal delay-2" onclick="openModal(7)">
         <div class="villa-card-img-wrap">
-          <img src="Villa Lili 1.jpeg" alt="Villa Lili" loading="lazy">
+          <img src="Villa Lili 1.jpeg" alt="Villa Lili - Location villa de luxe Marrakech avec hammam et spa privé" loading="lazy">
           <span class="villa-card-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 8 pers.</span>
           <span class="villa-card-gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Voir les photos</span>
         </div>
@@ -509,7 +611,7 @@
 
       <div class="villa-card reveal delay-3" onclick="openModal(8)">
         <div class="villa-card-img-wrap">
-          <img src="Villa Manès 1.jpeg" alt="Villa Manès" loading="lazy">
+          <img src="Villa Manès 1.jpeg" alt="Villa Manès - Villa privée à Marrakech avec jardin et piscine chauffée" loading="lazy">
           <span class="villa-card-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 8 pers.</span>
           <span class="villa-card-gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Voir les photos</span>
         </div>
@@ -534,7 +636,7 @@
 
       <div class="villa-card reveal delay-1" onclick="openModal(9)">
         <div class="villa-card-img-wrap">
-          <img src="Villa MANYS .jpeg" alt="Villa MANYS" loading="lazy">
+          <img src="Villa MANYS .jpeg" alt="Villa MANYS - Villa de luxe Marrakech avec grand jardin, home cinéma et hammam" loading="lazy">
           <span class="villa-card-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 8 pers.</span>
           <span class="villa-card-gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Voir les photos</span>
         </div>
@@ -559,7 +661,7 @@
 
       <div class="villa-card reveal delay-2" onclick="openModal(10)">
         <div class="villa-card-img-wrap">
-          <img src="Villa PP 1.jpeg" alt="Villa PP" loading="lazy">
+          <img src="Villa PP 1.jpeg" alt="Villa PP - Louer villa Marrakech avec terrain de padel, basket et salle de sport" loading="lazy">
           <span class="villa-card-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 8 pers.</span>
           <span class="villa-card-gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Voir les photos</span>
         </div>
@@ -589,8 +691,8 @@
   <!-- ========== SERVICES ========== -->
   <section class="section services" id="services">
     <span class="section-line reveal"></span>
-    <h2 class="section-title reveal delay-1">Nos Services</h2>
-    <p class="section-subtitle reveal delay-2">Chaque détail est pensé pour que vous n'ayez qu'à profiter.</p>
+    <h2 class="section-title reveal delay-1">Services de conciergerie à Marrakech</h2>
+    <p class="section-subtitle reveal delay-2">Transfert aéroport, chef privé, activités sur mesure : notre conciergerie à Marrakech pense à tout pour que vous n'ayez qu'à profiter de votre villa.</p>
     <div class="services-grid">
       <div class="service-card reveal-left delay-1">
         <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -619,8 +721,8 @@
   <!-- ========== AVIS ========== -->
   <section class="section testimonials" id="avis">
     <span class="section-line reveal"></span>
-    <h2 class="section-title reveal delay-1">Ce que disent nos clients</h2>
-    <p class="section-subtitle reveal delay-2">Des séjours inoubliables, racontés par ceux qui les ont vécus.</p>
+    <h2 class="section-title reveal delay-1">Avis clients · Location villa Marrakech</h2>
+    <p class="section-subtitle reveal delay-2">Des séjours inoubliables dans nos villas à Marrakech, racontés par ceux qui les ont vécus.</p>
 
     <div class="testimonials-marquee-wrap">
       <!-- Ligne 1 : défile vers la gauche -->
@@ -633,8 +735,8 @@
   <!-- ========== CTA FINAL ========== -->
   <section class="cta-final">
     <span class="section-line reveal"></span>
-    <h2 class="section-title reveal delay-1">Planifiez votre séjour</h2>
-    <p class="section-subtitle reveal delay-2">Notre équipe vous répond dans les plus brefs délais.</p>
+    <h2 class="section-title reveal delay-1">Réservez votre villa à Marrakech</h2>
+    <p class="section-subtitle reveal delay-2">Louer une villa de luxe à Marrakech avec conciergerie privée — devis rapide sur WhatsApp, notre équipe vous répond 7j/7.</p>
     <a href="https://wa.me/33769114397?text=Bonjour%2C%20je%20souhaite%20planifier%20un%20s%C3%A9jour%20dans%20l%27une%20de%20vos%20villas%20%C3%A0%20Marrakech.%20Quelles%20sont%20les%20disponibilit%C3%A9s%20%3F" class="btn-cta-final reveal delay-3" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
       <span>Contacter Nyma Luxury sur WhatsApp</span>
@@ -643,17 +745,45 @@
 
   </main>
 
+  <!-- ========== SECTION BILINGUE SEO (EN) ========== -->
+  <section class="seo-en" id="english" lang="en" aria-label="English summary">
+    <span class="section-line reveal"></span>
+    <h2 class="section-title reveal delay-1">Luxury Villa Rental in Marrakech</h2>
+    <p class="section-subtitle reveal delay-2">
+      Nyma Luxury is a private concierge service in Marrakech. We curate 11 luxury private villas
+      to rent at the Golf Argan Resort, all with heated pool, hammam, private chef on request and
+      24/7 concierge. Airport transfer, excursions and bespoke experiences included.
+      Book your Marrakech villa rental directly on WhatsApp.
+    </p>
+    <p class="about-text reveal delay-3">
+      <strong>Keywords:</strong> villa Marrakech, rent villa Marrakech, luxury villa Marrakech,
+      private villa Marrakech, holiday villa Marrakech, Marrakech concierge service, Golf Argan Resort villa.
+    </p>
+  </section>
+
   <!-- ========== FOOTER ========== -->
   <footer class="footer">
-    <img src="Logo nyma luxury blanc.png" alt="Nyma Luxury" class="footer-logo">
+    <img src="Logo nyma luxury blanc.png" alt="Nyma Luxury - Conciergerie Marrakech" class="footer-logo">
+    <p class="footer-tagline">Louer une villa de luxe à Marrakech · Conciergerie privée 7j/7<br><span lang="en">Luxury villa rental &amp; private concierge in Marrakech</span></p>
     <div class="footer-links">
-      <a href="#villas">Nos Villas</a>
-      <a href="#services">Services</a>
-      <a href="#avis">Avis</a>
-      <a href="blog/">Blog</a>
+      <a href="#villas" title="Nos villas de luxe à Marrakech">Nos Villas</a>
+      <a href="#services" title="Services de conciergerie Marrakech">Services</a>
+      <a href="#avis" title="Avis clients location villa Marrakech">Avis</a>
+      <a href="#english" title="English - Luxury villa Marrakech">English</a>
+      <a href="blog/" title="Blog - Guide villa Marrakech">Blog</a>
     </div>
+    <nav class="footer-seo-links" aria-label="Liens SEO">
+      <a href="#villas">Villa Marrakech</a> ·
+      <a href="#villas">Louer villa Marrakech</a> ·
+      <a href="#services">Conciergerie Marrakech</a> ·
+      <a href="#villas">Villa privée Marrakech</a> ·
+      <a href="#villas">Villa luxe Marrakech avec piscine</a> ·
+      <a href="#villas">Villa Golf Argan Resort</a> ·
+      <a href="#services">Chef privé Marrakech</a> ·
+      <a href="#services">Transfert aéroport Marrakech</a>
+    </nav>
     <div class="footer-line"></div>
-    <p>&copy; 2026 Nyma Luxury | Marrakech</p>
+    <p>&copy; 2026 Nyma Luxury | Villa Marrakech · Conciergerie Marrakech</p>
   </footer>
 
   <!-- ========== WhatsApp flottant ========== -->

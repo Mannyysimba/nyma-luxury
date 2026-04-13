@@ -1,47 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://nymaluxury.com/</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nymaluxury.com/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://nymaluxury.com/" />
+    <xhtml:link rel="alternate" hreflang="fr-MA" href="https://nymaluxury.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nymaluxury.com/#english" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nymaluxury.com/" />
     <image:image>
       <image:loc>https://nymaluxury.com/Image%20arriere%20plan%20hero%20section.jpg</image:loc>
-      <image:title>Nyma Luxury - Villas de luxe à Marrakech</image:title>
+      <image:title>Villa de luxe à Marrakech - Nyma Luxury</image:title>
+      <image:caption>Louer une villa de luxe à Marrakech avec conciergerie privée</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://nymaluxury.com/Villa%20Jonathan%201.jpeg</image:loc>
-      <image:title>Villa Jonathan - 6 suites de luxe à Marrakech</image:title>
+      <image:title>Villa Jonathan - Villa 12 personnes à louer à Marrakech</image:title>
     </image:image>
     <image:image>
       <image:loc>https://nymaluxury.com/Villa%20Amrabt%201.jpeg</image:loc>
-      <image:title>Villa Amrabt - Vue lac et golf à Marrakech</image:title>
+      <image:title>Villa Amrabt - Villa de luxe Marrakech vue golf</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://nymaluxury.com/Villa%20Isis%201.jpeg</image:loc>
+      <image:title>Villa Isis - Villa de luxe Marrakech avec piscine chauffée et hammam</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://nymaluxury.com/blog/</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nymaluxury.com/blog/top-villas-luxe-marrakech.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://nymaluxury.com/Villa%20Jonathan%201.jpeg</image:loc>
-      <image:title>Top villas de luxe à Marrakech - Villa Jonathan</image:title>
+      <image:title>Top villas de luxe à louer à Marrakech - Villa Jonathan</image:title>
     </image:image>
     <image:image>
       <image:loc>https://nymaluxury.com/Villa%20Isis%201.jpeg</image:loc>
-      <image:title>Villa Isis - Villa tout équipée à Marrakech</image:title>
+      <image:title>Villa Isis - Villa de luxe tout équipée à Marrakech</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://nymaluxury.com/blog/sejour-entre-amis-marrakech.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -51,12 +62,12 @@
   </url>
   <url>
     <loc>https://nymaluxury.com/blog/golf-argan-resort-guide.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://nymaluxury.com/Villa%20Hami.jpeg</image:loc>
-      <image:title>Golf Argan Resort Marrakech - Vue domaine</image:title>
+      <image:title>Golf Argan Resort Marrakech - Louer une villa sur le domaine</image:title>
     </image:image>
   </url>
 </urlset>
